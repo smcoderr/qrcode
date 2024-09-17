@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Generate QR codes instantly with our QR Code Generator. Enter any text or URL and create a QR code in seconds." />
+    <meta name="keywords" content="QR code generator, QR code, create QR code, instant QR code, QR code for URL" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://yourwebsite.com/qr-code-generator" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="QR Code Generator" />
+    <meta property="og:description" content="Generate QR codes instantly with our QR Code Generator. Enter any text or URL and create a QR code in seconds." />
+    <meta property="og:url" content="https://yourwebsite.com/qr-code-generator" />
+    <meta property="og:image" content="./img/jsimg.webp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="QR Code Generator" />
+    <meta name="twitter:description" content="Generate QR codes instantly with our QR Code Generator. Enter any text or URL and create a QR code in seconds." />
+    <meta name="twitter:image" content="./img/jsimg.webp" />
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "QR Code Generator",
+        "description": "Generate QR codes instantly with our QR Code Generator. Enter any text or URL and create a QR code in seconds.",
+        "url": "https://yourwebsite.com/qr-code-generator",
+        "image": "https://yourwebsite.com/img/jsimg.webp",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Your Website",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://yourwebsite.com/images/logo.png"
+          }
+        }
+      }
+    </script>
+
+     <!-- Favicon -->
+     <link rel="icon" href="./img/logo.ico" type="image/x-icon">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>Enter your url</p>
+      <input type="text" placeholder="Text or URL" id="qrText" />
+      <div id="imgBox">
+        <img src="" id="qrImage" alt="" />
+      </div>
+      <button onclick="generateQR()">Generate QR Code</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
